@@ -1,7 +1,11 @@
-import "./App.css";
+import MultiFilters from "./components/MultiFilters";
 
 function App() {
-  return <></>;
+  return (
+    <div className="App">
+      <MultiFilters />
+    </div>
+  );
 }
 
 export default App;
